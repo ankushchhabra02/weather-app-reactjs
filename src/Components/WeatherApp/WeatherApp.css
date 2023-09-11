@@ -1,12 +1,11 @@
-*{
-    width: auto;
-    height: auto;
-}
 .a{
     width: 100%;
     height: 100vh;
+    min-height: 900px;
+    
     position: absolute;
     background : teal;
+    background-repeat: repeat;
 }
 
 .container{
@@ -15,7 +14,6 @@
     height: 829px;
     margin: auto;
     margin-top:75px ;
-    /* margin-bottom: 75px; */
     border-radius: 12px;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(212,109,255,1) 0%, rgba(0,255,218,1) 100%);
 

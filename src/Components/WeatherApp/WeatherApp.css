@@ -13,6 +13,7 @@
 }
 
 .top-bar input{
+    width: 70%;
     background: #ebfffc;
     border: none;
     outline: none;
@@ -98,6 +99,7 @@
 @media (max-width: 768px) {
     .container {
         width: 90%; /* Adjust the container width for smaller screens */
+        height: auto;
     }
     /* Add similar adjustments for other elements as needed */
 }
@@ -105,6 +107,14 @@ img {
     max-width: 100%;
     height: auto;
 }
+.top-bar {
+    margin-top: 1rem; /* Reduce top margin for smaller screens */
+}
+
+.top-bar input {
+    width: 70%; /* Make the input element full width */
+}
+
 /* Example media query for smaller fonts on smaller screens */
 @media (max-width: 768px) {
     .weather-temp {

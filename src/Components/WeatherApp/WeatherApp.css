@@ -60,12 +60,14 @@
     color: white;
     font-size: 3.5rem;
     font-weight: 600;
+    text-align: center;
 }
 
 .data-container{
     margin-top: 50px;
     color: white;
     display: flex;
+    /* flex-direction: column;  */
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 2rem;
@@ -80,13 +82,33 @@
 .data{
     font-size: 2rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .text{
     font-size: 1.5rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .icon{
     margin-top: 10px;
+}
+/* Example media query for small screens */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust the container width for smaller screens */
+    }
+    /* Add similar adjustments for other elements as needed */
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Example media query for smaller fonts on smaller screens */
+@media (max-width: 768px) {
+    .weather-temp {
+        font-size: 3rem;
+    }
+    /* Add similar adjustments for other font sizes as needed */
 }
